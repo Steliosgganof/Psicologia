@@ -1,0 +1,6 @@
+li#accordion-section-adore_blog_recent_posts_section,
+li#accordion-section-adore_blog_advertisement_section,
+li#customize-control-adore_blog_trending_enable,
+li#customize-control-adore_blog_latest_posts_enable {
+ display: none !important;
+}

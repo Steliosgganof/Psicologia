@@ -1,0 +1,161 @@
+/*
+Theme Name: Blogin
+Theme URI: https://adorethemes.com/downloads/blogin/
+Author: Adore Themes
+Author URI: https://adorethemes.com/
+Description: Blogin is a child theme of Adore Blog theme. It is a minimal designed, very light weight and easy to use clean and blog theme. This Theme is suitable for any lifestyle, fashion, photography, food, beauty, cosmetic, or any blog in a specific niche. It is designed with beautiful layouts and practical features to give that modern look to the site without compromising the content. The theme allows you to customize your website as per your desire via the WordPress Customizer. It is a fully responsive theme that will display your content accurately on every devices. Demo URL: https://demo.adorethemes.com/blogin/
+Version: 1.0.0
+Requires at least: 5.0
+Requires PHP: 5.6
+Tested up to: 6.0
+Template: adore-blog
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: blogin
+Tags: custom-background, custom-header, custom-logo, custom-menu, featured-images, footer-widgets, left-sidebar, right-sidebar, blog, one-column, portfolio, photography, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Adore Blog is based on Underscores http://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+# Primary Css
+--------------------------------------------------------------*/
+#primary-slider-section {
+    position: relative;
+}
+#primary-slider-section .entry-container {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    padding: 0 45px;
+}
+#primary-slider-section article {
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+}
+#primary-slider-section .entry-title a,
+#primary-slider-section .post-categories a:hover, 
+#primary-slider-section .post-categories a:focus, 
+#primary-slider-section .posted-on a, 
+#primary-slider-section .byline, 
+#primary-slider-section .byline a,
+#primary-slider-section .entry-content p {
+    color: #fff;
+}
+#primary-slider-section .entry-title a:hover,
+#primary-slider-section .entry-title a:focus,
+#primary-slider-section .byline a:hover,
+#primary-slider-section .byline a:focus,
+#primary-slider-section .posted-on a:hover,
+#primary-slider-section .posted-on a:focus {
+    color: #f42c26;
+}
+#primary-slider-section .entry-meta > span:not(:first-child):before {
+    background-color: #fff;
+}
+#primary-slider-section .slick-arrow {
+    visibility: hidden;
+}
+#primary-slider-section article:hover .slick-arrow {
+    visibility: visible;
+}
+#primary-trending-section {
+    position: relative;
+}
+#primary-trending-section .featured-image {
+    padding: 120px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    margin-bottom: 15px;
+}
+#primary-trending-section .post-categories {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+#primary-trending-section .post-categories a {
+    background-color: #f42c26;
+    padding: 3px 6px;
+    color: #fff
+}
+#primary-trending-section .post-categories a:hover,
+#primary-trending-section .post-categories a:focus {
+    background-color: #000;
+}
+#primary-trending-section .entry-title {
+    margin-bottom: 0;
+}
+#primary-trending-section .show-more {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+#primary-trending-section .show-more a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#primary-recent-section {
+    position: relative;
+}
+#primary-recent-section .featured-image {
+    padding: 150px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+#primary-recent-section .entry-container {
+    border: 1px solid #000;
+    padding: 25px 20px;
+    border-bottom: unset;
+}
+#primary-recent-section .entry-title {
+    margin-bottom: 0;
+}
+#primary-recent-section .show-more,
+#primary-slider-section .show-more {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+#primary-recent-section .show-more a,
+#primary-slider-section .show-more a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#primary-recent-section.recent-style-2 .entry-container {
+    border-top: unset;
+    border-bottom: 1px solid #000;
+}
+
+@media screen and (min-width: 767px) {
+
+}
+
+@media screen and (min-width: 1025px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+@media screen and (min-width: 1900px) {
+    
+}
